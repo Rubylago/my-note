@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+require('dotenv').config()
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://Rubylago.github.io/my-note',
+  url: 'https://Rubylago.github.io',
   baseUrl: '/my-note/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,6 +16,7 @@ const config = {
   customFields: {
     // 把你的自定義環境放在這裡
     teamEmail: process.env.EMAIL,
+    GIT_USER: process.env.GIT_USER
   },
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
