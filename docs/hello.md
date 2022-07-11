@@ -7,3 +7,5 @@ slug: /
 
 This is my **first Docusaurus document**!
 YAAAAAAAAAAAAAAAAAAAAA
+
+![img alt](/img/docusaurus.png)
