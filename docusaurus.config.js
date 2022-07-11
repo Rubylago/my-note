@@ -27,10 +27,7 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'zh-TW',
-    locales: ['en', 'zh-TW'],
-  },
+  
 
   presets: [
     [
@@ -40,9 +37,6 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        docs: {
-          routeBasePath: '/', // 把文檔放在網站根部
-        }
       }),
     ],
   ],
