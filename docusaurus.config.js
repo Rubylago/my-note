@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Rubylago\'s Site',
+  tagline: 'Dinosaurs are cute',
   url: 'https://Rubylago.github.io',
   baseUrl: '/my-note/',
   onBrokenLinks: 'throw',
@@ -40,6 +40,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        docs: {
+          routeBasePath: '/', // 把文檔放在網站根部
+        }
       }),
     ],
   ],
