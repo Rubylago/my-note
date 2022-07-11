@@ -1,21 +1,19 @@
 ---
-title: [JS] Event Loop
+title: <JS> Event Loop
 ---
 
-# [JS] Event Loop 簡易筆記
+# Event Loop 簡易筆記
 
 >事件循環 (Event Loop)、事件佇列 (Event Queue)、事件堆疊 (Call Stack)
 
 Javascript 是單執行緒 (Single Thread) ，意思是 JS 一次只能做一件事情，程式碼是一行一行執行的。 所有的程式碼都會排排站在stack中等待被執行。  
-那我們到底執行到哪裡了呢? 這邊會有 事件堆疊 (Call Stack) 來記錄我們執行到哪了!   
+那我們到底執行到哪裡了呢? 這邊會有 事件堆疊 (Call Stack) 來記錄我們執行到哪了!  
 事件堆疊採後進先出，一個一個來，越晚進入堆疊的程序越早執行完，執行完後就移出推疊。就像去排隊買東西遇到臨檢，警察從隊伍最末端開始檢查，查完就踢出隊伍一樣(??)
 
 [下圖](https://medium.com/itsems-frontend/javascript-event-loop-event-queue-call-stack-74a02fed5625)很好的說明了整個事件循環 (Event Loop)的過程:
 ![img alt](https://miro.medium.com/max/1050/0*julBGLAIl2V-_TJ_.png )
 
-<br>
-
-## 整個大框框是事件循環 (Event Loop) 相關流程，分成四個區塊：
+## 整個大框框是事件循環 (Event Loop) 相關流程，分成四個區塊
 
 1. JS 程式執行中
    + Heap 是程式中各種函式 / 宣告blablabla的記憶體空間
@@ -30,8 +28,6 @@ Javascript 是單執行緒 (Single Thread) ，意思是 JS 一次只能做一件
 
 4. Event Loop 事件循環  
   Event Loop 會持續查看 Stack 的狀態，如果 Stack 空了，就會把在 Callback Queue 裡等待的內容排進 Stack 去執行。
-
-<br>
 
 ## 現在來看常見範例 `setTimeout`
 
@@ -57,8 +53,6 @@ console.log('Body')
 4. Stack 空了，Event Loop 把在 Callback Queue 裡等待的 setTimeout 內容排進 Stack 去執行: console.log('there')  
 
 以上就是為什麼 setTimeout 設定 0 秒後執行並不會真的在 0 秒後發生的原因。
-
-<br>
 
 >參考資料:  
 [愛門莉的旅途留聲 Emilydondon](https://emilywalkdone.blogspot.com/2021/01/JavaScript-EVENT-LOOP.html)  
