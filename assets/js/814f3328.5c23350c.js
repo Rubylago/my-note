@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Docusaurus \u642c\u5bb6\u5fc3\u5f97","permalink":"/my-note/blog/docusaurus"},{"title":"\u5176\u5be6\u4eba\u751f\u4e00\u76f4\u90fd\u5728\u8f49\u8077\u554a","permalink":"/my-note/blog/20220712-first-blog-post"}]}')}}]);
