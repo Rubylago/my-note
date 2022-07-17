@@ -55,7 +55,6 @@ console.log('Body')
 以上就是為什麼 setTimeout 設定 0 秒後執行並不會真的在 0 秒後發生的原因。
 
 
-</br>
 
 ---
 
