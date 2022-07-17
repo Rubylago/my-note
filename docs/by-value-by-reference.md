@@ -74,7 +74,7 @@ changeValue(A)
 console.log(A) // [1,2,3]
 ```
 
-*目前讀到還有一說 Javascript 沒有在 by value 啊 by reference 的，他其實是 by sharing?! 這個部份好像也還沒個定論，且讓我們繼續看下去~~放置play~~*
+*目前讀到還有一說 Javascript 沒有在 by value 啊 by reference 的，他其實是 by sharing?! 這個部份好像也還沒個定論，有興趣的朋友可以參考下面的連結*
 
 
 ---
