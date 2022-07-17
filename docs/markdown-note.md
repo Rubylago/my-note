@@ -28,7 +28,6 @@ Docusaurus 轉換:
 <a href={require('static/files/note.docx')}>下載此文檔</a>
 ```  
 
-
 ## 換行 & 空行
 
 後面空兩格再換行，顯示出來就會換行了
@@ -38,7 +37,6 @@ Docusaurus 轉換:
 
 456
 沒換行
-
 
 ```markdown
 123後面接兩個空白鍵  
@@ -50,6 +48,7 @@ Docusaurus 轉換:
 ```
 
 ## 引用
+
 在最前面使用 `>` 符號 就可以變成`<blockquote>`
 
 >引用
@@ -64,7 +63,7 @@ Docusaurus 轉換:
 後面不管幾行  
 都不用也沒關係
 
-```markdown 
+```markdown
 >引用
 
 >引用  
@@ -83,31 +82,31 @@ Docusaurus 轉換:
 
 :::note
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.  
 
 :::
 
 :::tip
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.
 
 :::
 
 :::info
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.
 
 :::
 
 :::caution
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.  
 
 :::
 
 :::danger
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.  
 
 :::
 
@@ -115,31 +114,31 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 :::note
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`. 
 
 :::
 
 :::tip
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.  
 
 :::
 
 :::info
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.  
 
 :::
 
 :::caution
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.  
 
 :::
 
 :::danger
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`.  
 
 :::
 ```
@@ -161,7 +160,6 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
   </form>
   ```
 
-
 ```js
 function HighlightSomeText(highlight) {
   if (highlight) {
@@ -185,19 +183,15 @@ function HighlightSomeText(highlight) {
 }
 ```
 
-
 ```jsx title="/src/components/HelloCodeTitle.js"
 function HelloCodeTitle(props) {
   return <h1>Hello, {props.name}</h1>;
 }
 ```
 
-
 ```
 ```jsx title="/src/components/HelloCodeTitle.js"
 function HelloCodeTitle(props) {
   return <h1>Hello, {props.name}</h1>;
 }
 ```
-
-
