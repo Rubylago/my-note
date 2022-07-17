@@ -44,13 +44,14 @@ for( var i = 0; i < 5; i++ ) {
   (function(i){
     window.setTimeout(function() {
      console.log(i)
-   }, 1000 * x)
-})(i)
+   }, 1000)
+})(i)}
 ```
 
 ---
 
-### 參考資料：
+### 參考資料 與 延伸閱讀
+
 * [談談 JavaScript 的 setTimeout 與 setInterval](https://kuro.tw/posts/2019/02/23/%E8%AB%87%E8%AB%87-JavaScript-%E7%9A%84-setTimeout-%E8%88%87-setInterval/)
 * [重新認識 JavaScript: Day 10 函式 Functions 的基本概念](https://ithelp.ithome.com.tw/articles/10191549)
 * [在 JavaScript 中，Var、Let、Const 的差異](https://askie.today/differences-among-var-let-const/)
