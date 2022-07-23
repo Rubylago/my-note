@@ -73,6 +73,31 @@ changeValue(A)
 console.log(A) // [1,2,3]
 ```
 
+來個綜合小測驗:
+
+```js
+const arr = new Array()
+const obj = new Object()
+for(let i = 0; i < 5; i++){
+  obj.value = i
+  arr.push(obj)
+}
+console.log(arr)
+```
+
+想好了嗎，要公布答案囉:
+
+```js
+// console.log(arr) 會拿到5個一樣的內容!
+[
+  { value: 4 },
+  { value: 4 },
+  { value: 4 },
+  { value: 4 },
+  { value: 4 }
+]
+```
+
 *目前讀到還有一說 Javascript 沒有在 by value 啊 by reference 的，他其實是 by sharing?! 這個部份好像也還沒個定論，有興趣的朋友可以參考下面的連結*
 
 ---

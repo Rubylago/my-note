@@ -52,9 +52,9 @@ console.log('Body')
 3. console.log('Body')
 4. Stack 空了，Event Loop 把在 Callback Queue 裡等待的 setTimeout 內容排進 Stack 去執行: console.log('there')  
 
-以上就是為什麼 setTimeout 設定 0 秒後執行並不會真的在 0 秒後發生的原因。
+看到這可以發現，其實 setTimeout 設定幾秒不是真的要等幾秒，因為無論如何 setTimeout 都要等前面的Stack清空才能執行，所以這裡應該把 setTimeout 的時間理解成 *最少要等多久才會執行* 的意思!
 
-
+最近在研究 Promise 也遇到 Event Loop ，找時間把筆記放上!
 
 ---
 
