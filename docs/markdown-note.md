@@ -1,10 +1,12 @@
 ---
 sidebar_position: 20
-slug: markdown-note
-title: Markdown note
+slug: markdown-note-for-docusaurus
+title: Docusaurus Markdown Note
 ---
 
-# Markdown Note
+# Docusaurus Markdown Note
+
+>紀錄一下 Docusaurus 適用的 Markdown 語法
 
 ## img & link
 
@@ -195,3 +197,25 @@ function HelloCodeTitle(props) {
   return <h1>Hello, {props.name}</h1>;
 }
 ```
+
+## Table
+
+在標題下面的 `---` 處加上 `:` 表示靠左靠右還是置中  
+`:--` 靠左  
+`---:` 靠右  
+`:---:` 置中  
+如果想要合併儲存格(好老的術語)，還是要把欄位畫出來，裡面不用塞東西，顯示就會是同一格了!每一格靠哪裡都會對應到最上面的`---`設定
+
+|tableA|||
+|:---|:----:|---:|
+|靠左|置中|靠右|
+||我置中||
+
+```markdown
+|tableA|||
+|:---|:----:|---:|
+|靠左|置中|靠右|
+||我置中||
+```
+
+>真的很懶也有線上產生 Markdown Table 的工具[Tables Generator](https://www.tablesgenerator.com/markdown_tables#)

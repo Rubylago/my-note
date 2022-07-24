@@ -170,3 +170,12 @@ async function asyncFn() {
   }
 }
 ```
+
+---
+
+### 參考資料 與 延伸閱讀
+
+- [MDN Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [Using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [你懂 JavaScript 嗎？#24 Promise](https://cythilya.github.io/2018/10/31/promise/)
+- [Async/await hell](https://www.tpisoftware.com/tpu/articleDetails/2768)

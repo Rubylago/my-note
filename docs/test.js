@@ -1,7 +1,7 @@
-// node docs/test.js
+//  node docs/test.js
 
 function promise(boolean){
-  return new Promise((resolve, reject)=>{
+  return new Promise( ( resolve, reject) =>{
   setTimeout(()=>{
     if (boolean){
       resolve('Yes')
@@ -21,3 +21,15 @@ async function asyncFn() {
 }
 
 asyncFn()
+
+function promise(boolean){
+return new Promise((resolve, reject)=>{
+setTimeout(()=>{
+if (boolean){
+  resolve('Yes')
+} else {
+  reject('No')
+}
+}, 100)
+  })
+}
