@@ -1,9 +1,9 @@
 ---
 sidebar_position: 8
 slug: var-let-const
-title: var, let, const 的 block scope
+title: "[JS] var, let, const 的 block scope"
 ---
-# var, let, const 的 block scope
+# [JS] var, let, const 的 block scope
 
 >解到一個setTimeout觀念題，回頭檢視了一下自己對scope的理解  
 

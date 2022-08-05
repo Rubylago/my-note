@@ -1,8 +1,9 @@
 ---
-title: <JS> Event Loop
+sidebar_position: 7
+title: "[JS] Event Loop"
 ---
 
-# Event Loop 簡易筆記
+# [JS] Event Loop 簡易筆記
 
 >事件循環 (Event Loop)、事件佇列 (Event Queue)、事件堆疊 (Call Stack)
 

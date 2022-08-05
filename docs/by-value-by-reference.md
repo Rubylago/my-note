@@ -1,10 +1,10 @@
 ---
 sidebar_position: 9
 slug: by-value-by-reference
-title: 按值還是按址? by value & by reference
+title: "[JS] 按值還是按址? by value & by reference"
 ---
 
-# 按值還是按址? by value & by reference
+# [JS] 按值還是按址? by value & by reference
 
 >Javascript 基本觀念釐清
 

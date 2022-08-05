@@ -1,8 +1,8 @@
 ---
-title: SQL JOIN Types
+title: "[SQL] JOIN Types"
 ---
 
-# SQL JOIN Types
+# [SQL] JOIN Types
 
 SQL join其實滿好懂的，下面有圖說，這邊紀錄最常用的幾種JOIN。(我覺得[stackoverflow](https://stackoverflow.com/questions/30358982/sql-server-replaces-left-join-for-left-outer-join-in-view-query)上解釋的英文寫得比中文好懂)
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 30
 slug: regular-expression
 title: 正則表達式 RegExp
 ---

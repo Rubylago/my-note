@@ -1,8 +1,9 @@
 ---
-title: 從 Promise 到 async/await 的基本概念
+sidebar_position: 9
+title: "[JS] 從 Promise 到 async/await "
 ---
 
-# 從 Promise 到 async/await 的基本概念
+# 從 Promise 到 async/await 
 
 >Promise 的誕生簡單說是為了解決 callback 容易變成 callback hell 的問題，讓非同步處理更好閱讀!
 
